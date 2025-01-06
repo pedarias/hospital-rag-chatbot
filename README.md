@@ -1,4 +1,5 @@
 # Hospital RAG Chatbot
+![Demo](./langchain_rag_chatbot_demo.gif)
 
 A **Retrieval-Augmented Generation (RAG)** chatbot for answering questions about a **fake hospital system**, leveraging:
 - **Neo4j AuraDB** for both structured data (patients, visits, physicians, payers, etc.) and vector embeddings (patient reviews).
@@ -160,7 +161,6 @@ $ docker-compose up --build
 
 After each container finishes building, you'll be able to access the chatbot api at `http://localhost:8000/docs`, the Streamlit app at `http://localhost:8501/`, and the Cypher Example Self-Service Portal at `http://localhost:8502/`
 
-![Demo](./langchain_rag_chatbot_demo.gif)
 
 ## Supporting Articles
 
