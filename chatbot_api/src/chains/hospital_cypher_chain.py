@@ -1,9 +1,9 @@
 import os
 from langchain_community.graphs import Neo4jGraph
-from langchain_openai import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
-from langchain.vectorstores.neo4j_vector import Neo4jVector
-from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain_community.vectorstores.neo4j_vector import Neo4jVector
+from langchain_community.embeddings.openai import OpenAIEmbeddings
 from src.langchain_custom.graph_qa.cypher import GraphCypherQAChain
 
 NEO4J_URI = os.getenv("NEO4J_URI")

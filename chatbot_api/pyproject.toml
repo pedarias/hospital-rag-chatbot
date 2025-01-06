@@ -1,19 +1,20 @@
 [project]
 name = "chatbot_api"
 version = "0.1"
+
 dependencies = [
-    "asyncio",
-    "fastapi",
-    "langchain",
-    "langchain-community",
-    "langchain-openai",
-    "langchainhub",
-    "neo4j",
-    "numpy",
-    "openai",
-    "opentelemetry-api",
-    "pydantic",
-    "uvicorn"
+    "asyncio>=3.4",
+    "fastapi>=0.100.0",
+    "langchain>=0.0.300",
+    "langchain-community>=0.2.9",
+    "langchainhub>=0.1.14",
+    "neo4j>=5.14.1",
+    "numpy>=1.25",
+    "openai>=0.27.0",
+    "tiktoken",
+    "opentelemetry-api>=1.22.0",
+    "pydantic>=2.0.0",
+    "uvicorn>=0.20.0"
 ]
 
 [project.optional-dependencies]
