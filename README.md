@@ -127,13 +127,13 @@ NEO4J_PASSWORD=<YOUR_NEO4J_PASSWORD>
 
 OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
 
-HOSPITALS_CSV_PATH=https://raw.githubusercontent.com/hfhoffman1144/langchain_neo4j_rag_app/main/data/hospitals.csv
-PAYERS_CSV_PATH=https://raw.githubusercontent.com/hfhoffman1144/langchain_neo4j_rag_app/main/data/payers.csv
-PHYSICIANS_CSV_PATH=https://raw.githubusercontent.com/hfhoffman1144/langchain_neo4j_rag_app/main/data/physicians.csv
-PATIENTS_CSV_PATH=https://raw.githubusercontent.com/hfhoffman1144/langchain_neo4j_rag_app/main/data/patients.csv
-VISITS_CSV_PATH=https://raw.githubusercontent.com/hfhoffman1144/langchain_neo4j_rag_app/main/data/visits.csv
-REVIEWS_CSV_PATH=https://raw.githubusercontent.com/hfhoffman1144/langchain_neo4j_rag_app/main/data/reviews.csv
-EXAMPLE_CYPHER_CSV_PATH=https://raw.githubusercontent.com/hfhoffman1144/langchain_neo4j_rag_app/main/data/example_cypher.csv
+HOSPITALS_CSV_PATH=https://raw.githubusercontent.com/pedarias/hospital-rag-chatbot/refs/heads/main/data/hospitals.csv
+PAYERS_CSV_PATH=https://raw.githubusercontent.com/pedarias/hospital-rag-chatbot/refs/heads/main/data/payers.csv
+PHYSICIANS_CSV_PATH=https://raw.githubusercontent.com/pedarias/hospital-rag-chatbot/refs/heads/main/data/physicians.csv
+PATIENTS_CSV_PATH=https://raw.githubusercontent.com/pedarias/hospital-rag-chatbot/refs/heads/main/data/patients.csv
+VISITS_CSV_PATH=https://raw.githubusercontent.com/pedarias/hospital-rag-chatbot/refs/heads/main/data/visits.csv
+REVIEWS_CSV_PATH=https://raw.githubusercontent.com/pedarias/hospital-rag-chatbot/refs/heads/main/data/reviews.csv
+EXAMPLE_CYPHER_CSV_PATH=https://raw.githubusercontent.com/pedarias/hospital-rag-chatbot/refs/heads/main/data/example_cypher.csv
 
 CHATBOT_URL=http://host.docker.internal:8000/hospital-rag-agent
 
